@@ -227,7 +227,7 @@ class AlertDialogModule(private val reactContext: ReactApplicationContext) :
     val dismissOnPress = getBoolean(button, "dismissOnPress") ?: true
     val textColor =
       getColor(button, "textColor")
-        ?: resolveThemeColor(com.google.android.material.R.attr.colorPrimary)
+        ?: resolveThemeColor(androidx.appcompat.R.attr.colorPrimary)
 
     val textView = TextView(themedContext ?: reactContext)
     textView.text = text
