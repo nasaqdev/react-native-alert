@@ -9,7 +9,7 @@ import {
   ScrollView,
 } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import { Alert } from '@ya/react-native-alert';
+import { Alert } from '@yousofabouhalawareact-native-alert';
 import { Card } from './components/Card';
 
 export default function App() {

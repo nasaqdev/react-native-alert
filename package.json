@@ -1,5 +1,5 @@
 {
-  "name": "@ya/react-native-alert",
+  "name": "@yousofabouhalawareact-native-alert",
   "version": "0.1.0",
   "description": "A customizable fully-native alert on iOS and Android.",
   "main": "./lib/module/index.js",
