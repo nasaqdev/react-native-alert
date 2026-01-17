@@ -1,2 +1,2 @@
-export { default as AlertView } from './AlertViewNativeComponent';
-export * from './AlertViewNativeComponent';
+export { Alert } from './nativeAlertDialog';
+export type { AlertButton, AlertOptions } from './nativeAlertDialog';

@@ -19,7 +19,6 @@ buildscript {
 apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
-apply plugin: "com.facebook.react"
 
 def getExtOrIntegerDefault(name) {
   return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties["Alert_" + name]).toInteger()
@@ -64,6 +63,7 @@ android {
   }
 }
 
+
 repositories {
   mavenCentral()
   google()
@@ -74,4 +74,5 @@ def kotlin_version = getExtOrDefault("kotlinVersion")
 dependencies {
   implementation "com.facebook.react:react-android"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+  implementation "com.google.android.material:material:1.12.0"
 }
